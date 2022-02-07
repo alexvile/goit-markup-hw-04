@@ -9,6 +9,7 @@
   --button-color: #2196f3;
   --button-main-color: #188ce8;
   --button-sec-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -228,6 +229,27 @@ p {
 .team-text {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.team-socials {
+  display: flex;
+  justify-content: space-evenly; /* временное */
+  margin-top: 16px;
+}
+.team-social-link {
+  display: block;
+  padding: 12px;
+  color: var(--icon-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+.team-social-ico {
+  fill: currentColor;
 }
 .team-subtitle {
   font-weight: 500;
