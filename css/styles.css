@@ -111,6 +111,11 @@ p {
 .nav-link.current {
   color: var(--accent-color);
 }
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Hero section */
 
 .hero {
