@@ -118,6 +118,11 @@ p {
   fill: currentColor;
 }
 
+.contacts-h-link {
+  display: flex;
+  align-items: center;
+}
+
 /* Hero section */
 
 .hero {
