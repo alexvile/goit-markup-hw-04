@@ -227,6 +227,9 @@ p {
   color: var(--title-text-color);
 }
 /* Our team section */
+.our-team-section {
+  background-color: var(--bg-light-color);
+}
 .our-team-list {
   display: flex;
 }
@@ -240,6 +243,7 @@ p {
 }
 .team-text {
   padding: 30px 32px;
+  background-color: var(--primary-white-color);
 }
 .team-socials {
   display: flex;
@@ -307,7 +311,7 @@ p {
 
 /* Footer styles */
 .footer {
-  background-color: black; /* !!!!!Временный фон !!!*/
+  background-color: var(--bg-darl-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
