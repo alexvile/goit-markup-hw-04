@@ -249,12 +249,13 @@ p {
   margin-right: 10px;
 }
 .team-social-link {
-  display: block;
-  padding: 12px;
-  color: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: var(--icon-color);
 }
 .team-social-link:hover,
 .team-social-link:focus {
@@ -286,18 +287,19 @@ p {
   margin-right: 30px;
 }
 .client-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 95px;
-  padding: 16px 32px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
 }
 .client-link:hover,
 .client-link:focus {
-  color: var(--button-color);
   border: 1px solid var(--button-color);
+  color: var(--button-color);
 }
 .client-icon {
   fill: currentColor;
@@ -345,11 +347,12 @@ p {
   margin-right: 10px;
 }
 .footer-social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  padding: 12px;
   color: var(--primary-white-color);
   background-color: var(--footer-icon-background-color);
 }
